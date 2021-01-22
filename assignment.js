@@ -5,8 +5,8 @@ function kilometerToMeter (kilometer){
     var meter = kilometer *1000;
     return meter;
 }
-var myMeter = kilometerToMeter(5);
-console.log(myMeter)
+ var myMeter = kilometerToMeter(5);
+ console.log(myMeter)
 
 // budgetCalculator 
 
@@ -18,10 +18,11 @@ function budgetCalculator(wacth, phone,laptop){
     return totalPrice;
 
 }
-// var wacthPrice = budgetCalculator(7,0,0);
-// var phonePrice = budgetCalculator(0,5,0);
-// var laptopPrice = budgetCalculator(0,0,2);
-// console.log(wacthPrice, phonePrice, laptopPrice);
+ var wacthPrice = budgetCalculator(7,0,0);
+ var phonePrice = budgetCalculator(0,5,0);
+ var laptopPrice = budgetCalculator(0,0,2);
+ console.log(wacthPrice, phonePrice, laptopPrice);
+
 var totalPrice = budgetCalculator(7, 5,2);
 console.log(totalPrice);
 
